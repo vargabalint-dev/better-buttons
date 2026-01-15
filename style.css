@@ -1,0 +1,102 @@
+body {
+    background-color: #F5F5F7;
+}
+
+#box {
+    height: 2000px;
+    min-width: 440px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    width: 80%;
+    margin: 25px auto;
+    box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 58px;
+}
+
+#box h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 33pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#box p {
+    padding-left: 25px;
+    font-size: 18pt;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#apple1 {
+    background-color: #0071e3;
+    width: 100px;
+    height: 35px;
+    margin-left: 25px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    border-radius: 88px;
+    border: #0071e3;
+}
+
+#apple1:hover {
+    background-color: #0177df;
+}
+
+#amazon-cart {
+    background-color: #ffd814;
+    width: 250px;
+    height: 35px;
+    padding: 2.5px;
+    margin-left: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 18px;
+    border: #ffce12;
+}
+
+#amazon-cart:hover {
+    background-color: #ffce12;
+}
+
+#amazon-buy {
+    margin: 25px;
+    background-color: #ffa41c;
+    width: 250px;
+    height: 35px;
+    margin-left: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 18px;
+    border: #ffa41c;
+}
+
+#amazon-buy:hover {
+    background-color: #ff8400;
+}
+
+#normal {
+    width: 160px;
+    height: 35px;
+    margin-left: 25px;
+    font-size: 15pt;
+}
+
+#unreadable {
+    width: 350px;
+    height: 35px;
+    margin-left: 25px;
+    font-size: 15pt;
+    background-color: black;
+    color: black;
+    border-radius: 34px;
+    transition: 0.20s;
+}
+
+#unreadable:hover {
+    background-color: grey;
+    color: white;
+}
