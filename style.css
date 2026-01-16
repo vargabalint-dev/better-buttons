@@ -100,3 +100,65 @@ body {
     background-color: grey;
     color: white;
 }
+
+/* Neon section */
+
+#neon {
+    width: 480px;
+    height: 370px;
+    border: 1px solid black;
+    background-image: url(https://cdn.manomano.com/media/edison/7/c/b/8/7cb86488ecd6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 25px;    
+}
+
+#neon button {
+    height: 70px;
+    width: 300px;
+    background: none;
+    color: #FFFF00;
+    border-radius: 19px;
+    font-size: 20pt;
+    border: 2.5px solid #FF5C00;
+    box-shadow: 0 0 20px 5px #FF5C00;
+    animation: neon 3s linear infinite;
+    backdrop-filter: blur(18px);
+}
+
+
+@keyframes neon {
+    0% {
+        color: red;
+        transform: scale(1);
+        transition-duration: 0.75s;
+    }
+
+    25% {
+        color: blue;
+        transform: scale(1.35);
+        transition-duration: 0.75s;
+    }
+
+    50% {
+        color: #FF5C00;
+        transform: scale(1.25);
+        transition-duration: 0.75s;
+    }
+
+    75% {
+        color: #FFFF00;
+        transform: scale(1.15);
+        transition-duration: 0.75s;
+    }
+
+    100% {
+        color: #ffce12;
+        transform: scale(1);
+        transition-duration: 0.75s;
+    }
+}
