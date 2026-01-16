@@ -157,32 +157,68 @@ body {
     }
 }
 
-@media screen and (max-width: 750px) {
-    #box {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+@media screen and (max-width: 450px) {
 
-    #amazon-buy,
-    #amazon-cart {
-        margin-left: 90px;
-    }
+  #box {
+    width: 90%;
+    margin: 16px auto;
+    padding: 20px;
+    border-radius: 32px;
+    height: auto;
+  }
 
-    #apple1 {
-        margin-left: 160px;
-    }
+  #box h1 {
+    font-size: 26pt;
+    padding-top: 10px;
+  }
 
-    #normal {
-        margin-left: 125px;
-    }
-    
-    #box p {
-        text-align: center;
-    }
+  #box p {
+    padding-left: 0;
+    text-align: center;
+    font-size: 14pt;
+  }
 
-    #neon {
-        width: 360px;
-        margin: auto auto;
-    }
+  #apple1 {
+    width: 100px;
+    max-width: 320px;
+    margin: 12px auto;
+    display: block;
+  }
+
+  #amazon-buy,
+  #amazon-cart {
+    width: 90%;
+    max-width: 320px;
+    margin: 12px auto;
+    display: block;
+  }
+
+  #normal {
+    width: 90%;
+    max-width: 320px;
+    margin: 12px auto;
+    display: block;
+  }
+
+  #unreadable {
+    width: 90%;
+    max-width: 320px;
+    margin: 12px auto;
+    height: 55px;
+    display: block;
+  }
+
+  #neon {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 30px auto;
+    border-radius: 18px;
+  }
+
+  #neon button {
+    width: 90%;
+    font-size: 16pt;
+    height: 60px;
+  }
 }
